@@ -41,11 +41,12 @@ This script:
 
 ---
 
-## 🔧 Usage
+## 🔧 How to use it 
 
-1. Make executable: bash chmod +x kubuntu_clone_v6.6b.sh
-2. Run from Live USB: sudo ./rsync_clone_v6.6b.sh
-3. Follow prompts:
+1. Download the rsync_clone.sh in the file list
+2. Make executable: bash ~$ chmod +x kubuntu_clone_v6.6b.sh
+3. Run from Live USB: ~$ sudo ./rsync_clone_v6.6b.sh
+4. Follow prompts:
     - Select clone mode (root/home/GRUB recovery)
     - Pick devices (source/root/home/EFI)
     - Choose dry-run or actual clone
@@ -54,10 +55,13 @@ This script:
     - Optionally save logs to a custom folder
     - Enter user name for chown (or it will default to use root)
 
+---
+
 ## 💡 Tips
-    - ✅ Best practice is to run this from a Live USB to avoid conflicts or file locks.
-    - 📁 Logs are saved under ./logs/Kubuntu_T2_bkup_<timestamp>/ by default.
-    - 🧪 Use the dry-run mode to simulate a clone safely before executing for real.
-    -🧯 Keep your EFI and /boot/grub structure clean if doing full recovery.
+
+- ✅ Best practice is to run this from a Live USB to avoid conflicts or file locks.
+- 📁 Logs are saved under ./logs/Kubuntu_T2_bkup_<timestamp>/ by default.
+- 🧪 Use the dry-run mode to simulate a clone safely before executing for real.
+- 🧯 Keep your EFI and /boot/grub structure clean if doing full recovery.
 
 Feel free to open issues or send pull requests to improve usability, hardware support, or logging!
